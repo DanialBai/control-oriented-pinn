@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<modelinfo>
+	<comsol version="6.2.0.339"/>
+	<model>
+		<name>demo0820for62_workstation.mph</name>
+		<inputs>
+			<input name="Tout" unit="K"/>
+			<input name="P1" unit="W"/>
+			<input name="P2" unit="W"/>
+			<input name="P3" unit="W"/>
+			<input name="V1" unit="m/s"/>
+			<input name="V2" unit="m/s"/>
+		</inputs>
+		<parameters>
+			<parameter name="Tin" unit="K"/>
+		</parameters>
+		<outputs>
+			<output name="comp1.dom1" expr="comp1.dom1" unit="K"/>
+			<output name="comp1.point1" expr="comp1.point1" unit="K"/>
+			<output name="comp1.point2" expr="comp1.point2" unit="K"/>
+			<output name="comp1.point3" expr="comp1.point3" unit="K"/>
+			<output name="comp1.point4" expr="comp1.point4" unit="K"/>
+			<output name="comp1.point5" expr="comp1.point5" unit="K"/>
+			<output name="comp1.point6" expr="comp1.point6" unit="K"/>
+			<output name="comp1.point7" expr="comp1.point7" unit="K"/>
+			<output name="comp1.point8" expr="comp1.point8" unit="K"/>
+			<output name="comp1.point9" expr="comp1.point9" unit="K"/>
+			<output name="comp1.point10" expr="comp1.point10" unit="K"/>
+			<output name="comp1.point11" expr="comp1.point11" unit="K"/>
+			<output name="comp1.point12" expr="comp1.point12" unit="K"/>
+			<output name="comp1.point13" expr="comp1.point13" unit="K"/>
+			<output name="comp1.point14" expr="comp1.point14" unit="K"/>
+			<output name="comp1.point15" expr="comp1.point15" unit="K"/>
+			<output name="comp1.point16" expr="comp1.point16" unit="K"/>
+			<output name="comp1.point17" expr="comp1.point17" unit="K"/>
+			<output name="comp1.point18" expr="comp1.point18" unit="K"/>
+			<output name="comp1.point19" expr="comp1.point19" unit="K"/>
+			<output name="comp1.point20" expr="comp1.point20" unit="K"/>
+			<output name="comp1.point21" expr="comp1.point21" unit="K"/>
+			<output name="comp1.point22" expr="comp1.point22" unit="K"/>
+			<output name="comp1.point23" expr="comp1.point23" unit="K"/>
+			<output name="comp1.point24" expr="comp1.point24" unit="K"/>
+			<output name="comp1.point25" expr="comp1.point25" unit="K"/>
+			<output name="comp1.point26" expr="comp1.point26" unit="K"/>
+			<output name="comp1.point27" expr="comp1.point27" unit="K"/>
+			<output name="comp1.point28" expr="comp1.point28" unit="K"/>
+			<output name="comp1.point29" expr="comp1.point29" unit="K"/>
+			<output name="comp1.point30" expr="comp1.point30" unit="K"/>
+			<output name="comp1.point31" expr="comp1.point31" unit="K"/>
+			<output name="comp1.point32" expr="comp1.point32" unit="K"/>
+			<output name="comp1.point33" expr="comp1.point33" unit="K"/>
+			<output name="comp1.point34" expr="comp1.point34" unit="K"/>
+			<output name="comp1.point35" expr="comp1.point35" unit="K"/>
+			<output name="comp1.point36" expr="comp1.point36" unit="K"/>
+			<output name="comp1.point37" expr="comp1.point37" unit="K"/>
+			<output name="comp1.point38" expr="comp1.point38" unit="K"/>
+			<output name="comp1.point39" expr="comp1.point39" unit="K"/>
+			<output name="comp1.point40" expr="comp1.point40" unit="K"/>
+			<output name="comp1.point41" expr="comp1.point41" unit="K"/>
+			<output name="comp1.point42" expr="comp1.point42" unit="K"/>
+			<output name="comp1.point43" expr="comp1.point43" unit="K"/>
+			<output name="comp1.point44" expr="comp1.point44" unit="K"/>
+			<output name="comp1.point45" expr="comp1.point45" unit="K"/>
+			<output name="comp1.point46" expr="comp1.point46" unit="K"/>
+			<output name="comp1.point47" expr="comp1.point47" unit="K"/>
+			<output name="comp1.point48" expr="comp1.point48" unit="K"/>
+			<output name="comp1.point49" expr="comp1.point49" unit="K"/>
+			<output name="comp1.point50" expr="comp1.point50" unit="K"/>
+			<output name="comp1.point51" expr="comp1.point51" unit="K"/>
+			<output name="comp1.point52" expr="comp1.point52" unit="K"/>
+			<output name="comp1.point53" expr="comp1.point53" unit="K"/>
+			<output name="comp1.point54" expr="comp1.point54" unit="K"/>
+			<output name="comp1.point55" expr="comp1.point55" unit="K"/>
+			<output name="comp1.point56" expr="comp1.point56" unit="K"/>
+			<output name="comp1.point57" expr="comp1.point57" unit="K"/>
+			<output name="comp1.point58" expr="comp1.point58" unit="K"/>
+			<output name="comp1.point59" expr="comp1.point59" unit="K"/>
+			<output name="comp1.point60" expr="comp1.point60" unit="K"/>
+			<output name="comp1.point61" expr="comp1.point61" unit="K"/>
+			<output name="comp1.point62" expr="comp1.point62" unit="K"/>
+			<output name="comp1.point63" expr="comp1.point63" unit="K"/>
+			<output name="comp1.point64" expr="comp1.point64" unit="K"/>
+			<output name="comp1.point65" expr="comp1.point65" unit="K"/>
+			<output name="comp1.point66" expr="comp1.point66" unit="K"/>
+			<output name="comp1.point67" expr="comp1.point67" unit="K"/>
+			<output name="comp1.point68" expr="comp1.point68" unit="K"/>
+			<output name="comp1.point69" expr="comp1.point69" unit="K"/>
+			<output name="comp1.point70" expr="comp1.point70" unit="K"/>
+			<output name="comp1.point71" expr="comp1.point71" unit="K"/>
+			<output name="comp1.point72" expr="comp1.point72" unit="K"/>
+			<output name="comp1.point73" expr="comp1.point73" unit="K"/>
+			<output name="comp1.point74" expr="comp1.point74" unit="K"/>
+			<output name="comp1.point75" expr="comp1.point75" unit="K"/>
+			<output name="comp1.point76" expr="comp1.point76" unit="K"/>
+			<output name="comp1.point77" expr="comp1.point77" unit="K"/>
+			<output name="comp1.point78" expr="comp1.point78" unit="K"/>
+			<output name="comp1.point79" expr="comp1.point79" unit="K"/>
+			<output name="comp1.point80" expr="comp1.point80" unit="K"/>
+			<output name="comp1.point81" expr="comp1.point81" unit="K"/>
+			<output name="comp1.point82" expr="comp1.point82" unit="K"/>
+			<output name="comp1.point83" expr="comp1.point83" unit="K"/>
+			<output name="comp1.point84" expr="comp1.point84" unit="K"/>
+			<output name="comp1.point85" expr="comp1.point85" unit="K"/>
+			<output name="comp1.point86" expr="comp1.point86" unit="K"/>
+			<output name="comp1.point87" expr="comp1.point87" unit="K"/>
+			<output name="comp1.point88" expr="comp1.point88" unit="K"/>
+			<output name="comp1.point89" expr="comp1.point89" unit="K"/>
+			<output name="comp1.point90" expr="comp1.point90" unit="K"/>
+			<output name="comp1.point91" expr="comp1.point91" unit="K"/>
+			<output name="comp1.point92" expr="comp1.point92" unit="K"/>
+			<output name="comp1.point93" expr="comp1.point93" unit="K"/>
+			<output name="comp1.point94" expr="comp1.point94" unit="K"/>
+			<output name="comp1.point95" expr="comp1.point95" unit="K"/>
+			<output name="comp1.point96" expr="comp1.point96" unit="K"/>
+			<output name="comp1.point97" expr="comp1.point97" unit="K"/>
+			<output name="comp1.point98" expr="comp1.point98" unit="K"/>
+			<output name="comp1.point99" expr="comp1.point99" unit="K"/>
+			<output name="comp1.point100" expr="comp1.point100" unit="K"/>
+			<output name="comp1.point101" expr="comp1.point101" unit="K"/>
+			<output name="comp1.point102" expr="comp1.point102" unit="K"/>
+			<output name="comp1.point103" expr="comp1.point103" unit="K"/>
+			<output name="comp1.point104" expr="comp1.point104" unit="K"/>
+			<output name="comp1.point105" expr="comp1.point105" unit="K"/>
+			<output name="comp1.point106" expr="comp1.point106" unit="K"/>
+			<output name="comp1.point107" expr="comp1.point107" unit="K"/>
+			<output name="comp1.point108" expr="comp1.point108" unit="K"/>
+			<output name="comp1.point109" expr="comp1.point109" unit="K"/>
+			<output name="comp1.point110" expr="comp1.point110" unit="K"/>
+			<output name="comp1.point111" expr="comp1.point111" unit="K"/>
+			<output name="comp1.point112" expr="comp1.point112" unit="K"/>
+			<output name="comp1.point113" expr="comp1.point113" unit="K"/>
+			<output name="comp1.point114" expr="comp1.point114" unit="K"/>
+			<output name="comp1.point115" expr="comp1.point115" unit="K"/>
+			<output name="comp1.point116" expr="comp1.point116" unit="K"/>
+			<output name="comp1.point117" expr="comp1.point117" unit="K"/>
+			<output name="comp1.point118" expr="comp1.point118" unit="K"/>
+			<output name="comp1.point119" expr="comp1.point119" unit="K"/>
+			<output name="comp1.point120" expr="comp1.point120" unit="K"/>
+			<output name="comp1.point121" expr="comp1.point121" unit="K"/>
+			<output name="comp1.point122" expr="comp1.point122" unit="K"/>
+			<output name="comp1.point123" expr="comp1.point123" unit="K"/>
+			<output name="comp1.point124" expr="comp1.point124" unit="K"/>
+			<output name="comp1.point125" expr="comp1.point125" unit="K"/>
+			<output name="comp1.point126" expr="comp1.point126" unit="K"/>
+			<output name="comp1.point127" expr="comp1.point127" unit="K"/>
+			<output name="comp1.point128" expr="comp1.point128" unit="K"/>
+			<output name="comp1.point129" expr="comp1.point129" unit="K"/>
+			<output name="comp1.point130" expr="comp1.point130" unit="K"/>
+			<output name="comp1.point131" expr="comp1.point131" unit="K"/>
+			<output name="comp1.point132" expr="comp1.point132" unit="K"/>
+			<output name="comp1.point133" expr="comp1.point133" unit="K"/>
+			<output name="comp1.point134" expr="comp1.point134" unit="K"/>
+			<output name="comp1.point135" expr="comp1.point135" unit="K"/>
+			<output name="comp1.point136" expr="comp1.point136" unit="K"/>
+			<output name="comp1.point137" expr="comp1.point137" unit="K"/>
+			<output name="comp1.point138" expr="comp1.point138" unit="K"/>
+			<output name="comp1.point139" expr="comp1.point139" unit="K"/>
+			<output name="comp1.point140" expr="comp1.point140" unit="K"/>
+			<output name="comp1.point141" expr="comp1.point141" unit="K"/>
+			<output name="comp1.point142" expr="comp1.point142" unit="K"/>
+			<output name="comp1.point143" expr="comp1.point143" unit="K"/>
+			<output name="comp1.point144" expr="comp1.point144" unit="K"/>
+			<output name="comp1.point145" expr="comp1.point145" unit="K"/>
+			<output name="comp1.point146" expr="comp1.point146" unit="K"/>
+			<output name="comp1.point147" expr="comp1.point147" unit="K"/>
+			<output name="comp1.point148" expr="comp1.point148" unit="K"/>
+			<output name="comp1.point149" expr="comp1.point149" unit="K"/>
+			<output name="comp1.point150" expr="comp1.point150" unit="K"/>
+			<output name="comp1.point151" expr="comp1.point151" unit="K"/>
+			<output name="comp1.point152" expr="comp1.point152" unit="K"/>
+			<output name="comp1.point153" expr="comp1.point153" unit="K"/>
+			<output name="comp1.point154" expr="comp1.point154" unit="K"/>
+			<output name="comp1.point155" expr="comp1.point155" unit="K"/>
+			<output name="comp1.point156" expr="comp1.point156" unit="K"/>
+			<output name="comp1.point157" expr="comp1.point157" unit="K"/>
+			<output name="comp1.point158" expr="comp1.point158" unit="K"/>
+		</outputs>
+		<solversettings type="transient" >
+			<study tag="std1" />
+		</solversettings>
+	</model>
+</modelinfo>
